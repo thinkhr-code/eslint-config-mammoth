@@ -8,13 +8,33 @@ module.exports = {
     sourceType: 'module'
   },
 
-  extends: 'eslint:recommended',
+  extends: [
+    'eslint:recommended',
+    'plugin:ember/recommended'
+  ],
 
   env: {
     browser: true,
   },
 
   rules: {
+    /*
+      Ember-ESlint Rules
+    **/
+    'ember/new-module-imports': 1,
+    'ember/no-duplicate-dependent-keys': 1,
+    'ember/require-super-in-init': 2,
+    'ember/alias-model-in-controller': 1,
+
+    // Not now
+    'ember/order-in-components': 0,
+    'ember/order-in-controllers': 0,
+    'ember/order-in-models': 0,
+    'ember/order-in-routes': 0,
+
+    /*
+      ESLint Rules
+    **/
     'no-confusing-arrow': 2,
     'no-const-assign': 2,
     'no-dupe-class-members': 2,

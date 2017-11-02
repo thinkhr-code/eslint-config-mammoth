@@ -19,6 +19,9 @@
     "eslint": ">= 3"
   },
   "homepage": "https://github.com/MammothHR/eslint-config-mammoth#readme",
+  "dependencies": {
+    "eslint-plugin-ember": "^4.3.0"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
