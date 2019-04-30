@@ -26,8 +26,35 @@ module.exports = {
     'ember/use-ember-get-and-set': 2, // Has --fix !
     'ember/new-module-imports': 2,
     'ember/no-old-shims': 2, // Has --fix !
+    'ember/avoid-using-needs-in-controllers': 2,
+    'ember/no-on-calls-in-components': 2,
+    'ember/no-restricted-resolver-tests': 2,
+    'ember/no-attrs-in-components': 2,
+    'ember/no-attrs-snapshot': 2,
+    'ember/no-capital-letters-in-routes': 2,
+    'ember/no-deeply-nested-dependent-keys-with-each': 2,
+    'ember/no-ember-super-in-es-classes': 2,
+    'ember/no-ember-testing-in-module-scope': 2,
+    'ember/no-invalid-debug-function-arguments': 2,
+    'ember/require-super-in-init': 2,
+    'ember/avoid-leaking-state-in-ember-objects': 2,
+    'ember/no-test-and-then': 2,
+    'ember/no-test-import-export': 2,
 
     'ember/no-observers': 1,
+    'ember/closure-actions': 1,
+    'ember/no-get-properties': 1,
+    'ember/no-get': 1,
+    'ember/no-unnecessary-index-route': 1,
+    'ember/no-unnecessary-route-path-option': 1,
+    'ember/no-unnecessary-service-injection-argument': 1,
+    'ember/no-duplicate-dependent-keys': 1,
+    'ember/no-side-effects': 1,
+
+    'ember/no-global-jquery': 1,
+    'ember/no-jquery': 1,
+    'ember/no-new-mixins': 1,
+    'ember/no-new-mixins': 1,
 
     // Eventually
     'ember/order-in-components': 0, // Has --fix !
