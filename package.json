@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/MammothHR/eslint-config-mammoth#readme",
   "dependencies": {
-    "eslint-plugin-ember": "^5.2.0"
+    "eslint-plugin-ember": "^6.4.1"
   },
   "keywords": [
     "eslint",
