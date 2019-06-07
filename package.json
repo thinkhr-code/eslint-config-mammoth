@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mammoth",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "MammothHR's ESLint config",
   "main": "index.js",
   "scripts": {
